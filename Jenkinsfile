@@ -6,7 +6,7 @@ pipeline {
 
             steps {
               
-                    sh 'compile'
+                    sh 'java -version'
                
             }
         }

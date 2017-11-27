@@ -6,12 +6,19 @@ pipeline {
 
             steps {
               
-                    sh 'mvn clean compile'
+                    echo 'compile'
                
             }
         }
 
-        
+            stage ('TESTING Stage') {
+
+            steps {
+              
+                    echo 'DONE'
+               
+            }
+        }
 
         
     }
